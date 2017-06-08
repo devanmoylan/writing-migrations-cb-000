@@ -8,8 +8,4 @@ describe 'student' do
     CreateStudents.new.change
   end
 
-  it 'has a name' do
-    student = Student.create(name: "Steven")
-    expect(Student.where(name: "Steven").first).to eq(student)
-  end
 end
